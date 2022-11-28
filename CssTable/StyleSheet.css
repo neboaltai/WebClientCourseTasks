@@ -1,0 +1,23 @@
+﻿.personTable {
+    font-family: 'Humanst521 Lt BT';
+    font-size: 19px;
+    letter-spacing: 1.1px;
+    width: 750px;
+    line-height: 42px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.personTable > tbody > tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.personTable th {
+    border: 1px solid #ccc;
+    padding-left: 11px;
+}
+
+.personTable > thead > tr {
+    color: #fff;
+    background-color: #3498db;
+}
