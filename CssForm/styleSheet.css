@@ -1,0 +1,57 @@
+﻿.requestForm {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #676565;
+}
+
+.requestForm > h1 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0;
+    padding-left: 19px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.requestForm .subtitle {
+    font-weight: bold;
+    line-height: 29px;
+}
+
+.requestForm input, .requestForm textarea {
+    box-sizing: border-box;
+    line-height: 32px;
+    width: 100%;
+    margin-bottom: 11px;
+    padding-left: 13px;
+    border: none;
+}
+
+.requestForm > form textarea {
+    line-height: 29px;
+    height: 112px;
+    margin-bottom: 7px;
+}
+
+.requestForm > form {
+    box-sizing: border-box;
+    padding: 10px 18px 14px 18px;
+    max-width: 736px;
+    max-height: 480px;
+    background-color: #feeed6;
+}
+
+.requestForm button {
+    display: block;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-top: 12px;
+    margin-left: auto;
+    color: #fff;
+    background-color: #378db2;
+    border: none;
+}
+
+.requestForm input:focus-visible, .requestForm textarea:focus-visible {
+    outline: -webkit-focus-ring-color none;
+}
