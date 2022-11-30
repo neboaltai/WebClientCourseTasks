@@ -1,8 +1,8 @@
 ﻿.course {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    width: 740px;
-    height: 405px;
+    max-width: 740px;
+    max-height: 489px;
     color: #676565;
     background-color: #feeed6;
     padding: 7px 10px 8px 11px;
