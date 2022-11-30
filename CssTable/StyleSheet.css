@@ -1,23 +1,27 @@
 ﻿.personTable {
+    max-width: 750px;
+}
+
+.personTable > table {
     font-family: 'Humanst521 Lt BT';
     font-size: 19px;
-    letter-spacing: 1.1px;
-    width: 750px;
     line-height: 42px;
+    width: 100%;
     text-align: left;
+    letter-spacing: 1.1px;
     border-collapse: collapse;
 }
 
-.personTable > tbody > tr:nth-child(odd) {
+.personTable tbody > tr:nth-child(odd) {
     background-color: #eee;
 }
 
-.personTable th {
-    border: 1px solid #ccc;
+.personTable th, .personTable td {
     padding-left: 11px;
+    border: 1px solid #ccc;
 }
 
-.personTable > thead > tr {
+.personTable thead > tr {
     color: #fff;
     background-color: #3498db;
 }
