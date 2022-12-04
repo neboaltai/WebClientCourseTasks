@@ -1,18 +1,18 @@
 ﻿.personTable {
-    max-width: 750px;
+    max-width: 860px;
 }
 
 .personTable > table {
     font-family: 'Humanst521 Lt BT';
-    font-size: 19px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 49px;
     width: 100%;
     text-align: left;
-    letter-spacing: 1.1px;
     border-collapse: collapse;
 }
 
 .personTable tbody > tr:nth-child(odd) {
+    line-height: 48px;
     background-color: #eee;
 }
 
