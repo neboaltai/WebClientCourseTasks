@@ -1,24 +1,26 @@
-﻿.course {
-    font-family: Arial, Helvetica, sans-serif;
+﻿* {
     box-sizing: border-box;
-    max-width: 740px;
-    max-height: 489px;
+}
+
+.course {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    max-width: 848px;
     color: #676565;
     background-color: #feeed6;
-    padding: 7px 10px 8px 11px;
+    padding: 8px 11px 0;
 }
 
 .title {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: lighter;
-    line-height: 30px;
-    margin: 0px;
+    line-height: 34px;
+    margin: 0;
 }
 
 .info {
-    line-height: 28px;
-    letter-spacing: 0.4px;
-    padding: 8px 0 9px 0;
+    line-height: 32px;
+    padding: 10px 0;
 }
 
 .subtitle {
@@ -27,12 +29,10 @@
 }
 
 .course > p {
-    font-size: 15px;
-    letter-spacing: 0.15px;
-    text-indent: 15px;
-    line-height: 21px;
-    text-align: justify;
-    padding-top: 7px;
-    padding-bottom: 3px;
+    font-size: 17px;
+    text-indent: 19px;
+    line-height: 24px;
+    padding: 8px 0 4px;
     margin: 0;
+    text-align: justify;
 }
