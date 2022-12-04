@@ -1,26 +1,28 @@
-﻿.requestForm {
+﻿* {
+    box-sizing: border-box;
+}
+
+.requestForm {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     color: #676565;
 }
 
 .requestForm > h1 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 33px;
+    line-height: 45px;
     margin: 0;
     padding-left: 19px;
     font-weight: lighter;
-    letter-spacing: 1px;
 }
 
 .requestForm .subtitle {
     font-weight: bold;
-    line-height: 29px;
+    line-height: 35px;
 }
 
 .requestForm input, .requestForm textarea {
-    box-sizing: border-box;
-    line-height: 32px;
+    line-height: 37px;
     width: 100%;
     margin-bottom: 11px;
     padding-left: 13px;
@@ -29,22 +31,20 @@
 
 .requestForm > form textarea {
     line-height: 29px;
-    height: 112px;
-    margin-bottom: 7px;
+    height: 128px;
+    margin-bottom: 8px;
 }
 
 .requestForm > form {
-    box-sizing: border-box;
-    padding: 10px 18px 14px 18px;
-    max-width: 736px;
-    max-height: 480px;
+    padding: 9px 21px 15px;
+    max-width: 844px;
     background-color: #feeed6;
 }
 
 .requestForm button {
     display: block;
     font-weight: bold;
-    padding: 8px 12px;
+    padding: 9px 12px;
     margin-top: 12px;
     margin-left: auto;
     color: #fff;
