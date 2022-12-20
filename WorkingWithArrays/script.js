@@ -1,6 +1,8 @@
 ﻿(function () {
     function sortByDescending(array) {
-        return array.sort((e1, e2) => e2 - e1);
+        return array.sort(function (e1, e2) {
+            return e2 - e1;
+        });
     }
 
     function getFirst5Numbers(array) {
@@ -12,23 +14,29 @@
     }
 
     function getEvenNumbersSum(array) {
-        return array.filter(e => e % 2 === 0)
-                    .reduce((sum, currentValue) => sum + currentValue, 0);
+        return array.filter(function (e) {
+            return e % 2 === 0;
+        }).reduce(function (sum, e) {
+            return sum + e;
+        }, 0);
     }
 
-    function getFrom1To100Numbers() {
+    function getNumbersFrom1To100() {
         var array = [];
 
-        for (i = 0; i < 100; i++) {
-            array[i] = i + 1;
+        for (var i = 1; i <= 100; i++) {
+            array.push(i);
         }
 
         return array;
     }
 
-    function getSquaresOfEvenNumbers(array) {
-        return array.filter(e => e % 2 === 0)
-                    .map(e => Math.pow(e, 2));
+    function getEvenNumbersSquares(array) {
+        return array.filter(function (e) {
+            return e % 2 === 0;
+        }).map(function (e) {
+            return e * e;
+        });
     }
 
     var numbers = [13, 6, 4, 9, 20, 11, 1, 2, 6];
@@ -48,11 +56,11 @@
     console.log("Сумма чётных чисел:");
     console.log(getEvenNumbersSum(numbers));
 
-    var from1To100Numbers = getFrom1To100Numbers();
+    var numbersFrom1To100 = getNumbersFrom1To100();
 
     console.log("Массив от 1 до 100:")
-    console.log(from1To100Numbers);
+    console.log(numbersFrom1To100);
 
     console.log("Квадраты чётных чисел:")
-    console.log(getSquaresOfEvenNumbers(from1To100Numbers));
+    console.log(getEvenNumbersSquares(numbersFrom1To100));
 })();
