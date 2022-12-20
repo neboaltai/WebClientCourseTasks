@@ -2,46 +2,45 @@
     box-sizing: border-box;
 }
 
-.requestForm {
+.request {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
+    max-width: 844px;
+    margin: 0 auto; 
     color: #676565;
 }
 
-.requestForm > h1 {
+.request > h1 {
     font-size: 33px;
-    line-height: 45px;
     margin: 0;
-    padding-left: 19px;
+    padding: 4px 19px;
     font-weight: lighter;
 }
 
-.requestForm .subtitle {
+.request .subtitle {
     font-weight: bold;
-    line-height: 35px;
 }
 
-.requestForm input, .requestForm textarea {
-    line-height: 37px;
+.request input, 
+.request textarea {
     width: 100%;
-    margin-bottom: 11px;
-    padding-left: 13px;
+    margin: 7px 0 19px 0;
+    padding: 11px 13px 9px 13px;
     border: none;
 }
 
-.requestForm > form textarea {
-    line-height: 29px;
+.request > form textarea {
     height: 128px;
-    margin-bottom: 8px;
+    margin: 7px 0 16px 0;
+    resize: vertical;
 }
 
-.requestForm > form {
-    padding: 9px 21px 15px;
-    max-width: 844px;
+.request > form {
+    padding: 17px 21px 15px;
     background-color: #feeed6;
 }
 
-.requestForm button {
+.request button {
     display: block;
     font-weight: bold;
     padding: 9px 12px;
@@ -50,8 +49,14 @@
     color: #fff;
     background-color: #378db2;
     border: none;
+    cursor: pointer;
 }
 
-.requestForm input:focus-visible, .requestForm textarea:focus-visible {
+.request button:hover {
+    background-color: #32728d;
+}
+
+.request input:focus-visible,
+.request textarea:focus-visible {
     outline: -webkit-focus-ring-color none;
 }
