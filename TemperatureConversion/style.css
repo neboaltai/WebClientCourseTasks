@@ -1,0 +1,19 @@
+﻿.converter {
+    margin: 5px;
+}
+
+.error-message {
+    color: #f00;
+    display: none;
+    position: absolute;
+}
+
+.invalid-required ~ .required {
+    border-color: #f00;
+    display: block;
+}
+
+.invalid-number ~ .number {
+    border-color: #f00;
+    display: block;
+}
