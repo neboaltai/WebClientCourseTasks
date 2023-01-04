@@ -5,11 +5,11 @@
         });
     }
 
-    function getFirst5Numbers(array) {
+    function getFirst5Elements(array) {
         return array.slice(0, 5);
     }
 
-    function getLast5Numbers(array) {
+    function getLast5Elements(array) {
         return array.slice(-5);
     }
 
@@ -48,10 +48,10 @@
     console.log(sortByDescending(numbers));
 
     console.log("Первые пять элементов:");
-    console.log(getFirst5Numbers(numbers));
+    console.log(getFirst5Elements(numbers));
 
     console.log("Последние пять элементов:");
-    console.log(getLast5Numbers(numbers));
+    console.log(getLast5Elements(numbers));
 
     console.log("Сумма чётных чисел:");
     console.log(getEvenNumbersSum(numbers));
