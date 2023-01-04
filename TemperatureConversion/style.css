@@ -8,12 +8,14 @@
     position: absolute;
 }
 
-.invalid-required ~ .required {
-    border-color: #f00;
+.invalid {
+     border-color: #f00;
+}
+
+.required ~ .required {
     display: block;
 }
 
-.invalid-number ~ .number {
-    border-color: #f00;
+.number ~ .number {
     display: block;
 }

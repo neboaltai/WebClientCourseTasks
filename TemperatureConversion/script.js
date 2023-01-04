@@ -10,10 +10,10 @@
     });
 
     convertButton.addEventListener("click", function () {
-        celsiusInput.classList.remove("invalid-required", "invalid-number");
+        celsiusInput.classList.remove("invalid", "required", "number");
 
         if (celsiusInput.value.trim().length === 0) {
-            celsiusInput.classList.add("invalid-required");
+            celsiusInput.classList.add("invalid", "required");
 
             celsiusInput.value = "";
             result.innerHTML = "";
@@ -24,7 +24,7 @@
         var celsiusDegrees = Number(celsiusInput.value);
 
         if (isNaN(celsiusDegrees)) {
-            celsiusInput.classList.add("invalid-number");
+            celsiusInput.classList.add("invalid", "number");
             
             result.innerHTML = "";
 
