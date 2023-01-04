@@ -1,16 +1,13 @@
 ﻿.persons {
     max-width: 860px;
-}
-
-.persons > table {
-    font-family: 'Humanst521 Lt BT', Calibri, Candara;
+    font-family: 'Humanst521 Lt BT', Calibri, sans-serif;
     font-size: 23px;
     width: 100%;
     text-align: left;
     border-collapse: collapse;
 }
 
-.persons tbody > tr:nth-child(odd) {
+.persons > tbody > tr:nth-child(odd) {
     background-color: #eee;
 }
 
@@ -19,7 +16,7 @@
     border: 1px solid #ccc;
 }
 
-.persons thead > tr {
+.persons > thead > tr {
     color: #fff;
     background-color: #3498db;
 }
