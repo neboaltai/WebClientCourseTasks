@@ -1,0 +1,20 @@
+﻿.error-message {
+    color: #f00;
+    display: none;
+}
+
+.invalid ~ .error-message {
+    display: block;
+}
+
+.invalid {
+    border-color: #f00;
+}
+
+.todo-item + .todo-item {
+    margin-top: 5px;
+}
+
+.todo-item-text {
+    padding-right: 5px;
+}
