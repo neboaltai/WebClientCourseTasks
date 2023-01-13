@@ -48,7 +48,8 @@
         function setEditMode() {
             todoItem.innerHTML = "<input class='edit-todo-item' type='text'/>\
                 <button class='save-button'>Save</button>\
-                <button class='cancel-button'>Cancel</button>";
+                <button class='cancel-button'>Cancel</button>\
+                <div class='error-message'> Field is required</div>";
 
             var editingTodoItem = todoItem.querySelector(".edit-todo-item");
             editingTodoItem.value = newTodoText;

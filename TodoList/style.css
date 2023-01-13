@@ -1,6 +1,11 @@
-﻿.error-message {
+﻿.todo-form {
+    margin: 5px;
+}
+
+.error-message {
     color: #f00;
     display: none;
+    position: absolute;
 }
 
 .invalid ~ .error-message {
@@ -11,8 +16,8 @@
     border-color: #f00;
 }
 
-.todo-item + .todo-item {
-    margin-top: 5px;
+.todo-item {
+    margin-top: 18px;
 }
 
 .todo-item-text {
