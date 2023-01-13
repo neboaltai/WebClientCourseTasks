@@ -36,7 +36,7 @@
         var kelvinResult = document.createElement("div");
         var fahrenheitResult = document.createElement("div");
 
-        kelvinResult.textContent = celsiusDegrees + 273.15 + " °K";
+        kelvinResult.textContent = celsiusDegrees + 273.15 + " K";
         fahrenheitResult.textContent = celsiusDegrees * 9 / 5 + 32 + " °F";
 
         result.appendChild(kelvinResult);
