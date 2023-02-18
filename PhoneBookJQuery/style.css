@@ -1,0 +1,15 @@
+﻿.table {
+    margin-top: 20px;
+    white-space: nowrap;
+}
+
+.table tbody tr {
+    cursor: pointer;
+}
+
+.invalid-feedback {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
