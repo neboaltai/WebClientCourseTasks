@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList", "TodoList\TodoLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListJQuery", "TodoListJQuery\TodoListJQuery.csproj", "{DB2CB14B-6619-4683-8E10-152A9A6852BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookJQuery", "PhoneBookJQuery\PhoneBookJQuery.csproj", "{88A58DC5-01A8-4E7A-AE3D-41931A39B348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBookJQuery", "PhoneBookJQuery\PhoneBookJQuery.csproj", "{88A58DC5-01A8-4E7A-AE3D-41931A39B348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Underscore", "Underscore\Underscore.csproj", "{6FD0F720-A911-4DE0-9EF7-9A1DED2B75BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{88A58DC5-01A8-4E7A-AE3D-41931A39B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A58DC5-01A8-4E7A-AE3D-41931A39B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A58DC5-01A8-4E7A-AE3D-41931A39B348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD0F720-A911-4DE0-9EF7-9A1DED2B75BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD0F720-A911-4DE0-9EF7-9A1DED2B75BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD0F720-A911-4DE0-9EF7-9A1DED2B75BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD0F720-A911-4DE0-9EF7-9A1DED2B75BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
